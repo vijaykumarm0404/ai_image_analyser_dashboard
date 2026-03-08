@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Configure Gemini API key
-genai.configure(api_key="AIzaSyBRBdw8UOqoQRzo3VOg0IP0GldFAeQehGY")
+genai.configure(api_key="API_KEY")
 
 
 def classify_scene(detected_objects):
